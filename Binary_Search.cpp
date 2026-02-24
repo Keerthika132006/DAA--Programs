@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main() {
@@ -7,7 +8,7 @@ int main() {
     cout << "Enter number of elements: ";
     cin >> n;
 
-    int arr[n];
+    vector<int> arr(n);
 
     cout << "Enter " << n << " sorted elements:\n";
     for(int i = 0; i < n; i++) {
